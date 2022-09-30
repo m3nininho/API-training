@@ -1,0 +1,21 @@
+body {
+  background: #4cd137;
+}
+.fotos {
+  max-width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+#container-itens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.item {
+  color: white;
+  font-weight: bold;
+  background: #2ecc71;
+  border: 4px solid black;
+  justify-self: center;
+  text-align: center;
+}
